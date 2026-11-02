@@ -1,0 +1,3 @@
+# GitHub Pages: keep internal files off the published site
+exclude:
+  - TIME_LOG.md

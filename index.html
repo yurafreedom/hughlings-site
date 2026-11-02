@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0eb">
+  <meta name="description" content="Hughlings turns medication history into an auditable review before the next escalation step. An early research prototype, built with clinical partners.">
+  <meta property="og:title" content="Hughlings — Before the next step, check the last ones.">
+  <meta property="og:description" content="Auditable treatment-history review. A research prototype from Tallinn.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sachenkolabs.tech/">
+  <meta property="og:image" content="https://sachenkolabs.tech/assets/slow-light.jpg">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://sachenkolabs.tech/">
+  <title>Hughlings — Auditable treatment-history review</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/slow-light.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="Hughlings home"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M5 28V14a8 8 0 0 1 16 0v14M14 28V14a8 8 0 0 1 16 0v14"/></svg>hughlings<span class="wordmark-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#how">The approach</a><a href="#example">A closer look</a><a href="#principles">Our principles</a></nav>
+    <a href="#contact" class="header-cta">Let's talk <span aria-hidden="true">↗</span></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><a href="#how">The approach</a><a href="#example">A closer look</a><a href="#principles">Our principles</a><a href="#contact">Become a design partner ↗</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow hero-enter"><span class="tiny-star" aria-hidden="true">✳</span> A clearer history. A considered next step.</div>
+        <h1 id="hero-title" class="hero-enter">Before the<br>next step,<br>check the <em>last ones.</em></h1>
+        <p class="hero-description hero-enter">Hughlings turns a patient's medication history into an auditable review before the next escalation step — showing which antidepressant courses were really adequate, and why.</p>
+        <div class="hero-actions hero-enter"><a class="button primary" href="#contact">Become a design partner <span aria-hidden="true">↗</span></a><a class="text-link" href="#how">See how it works <span aria-hidden="true">↓</span></a></div>
+        <p class="status hero-enter"><span class="status-dot"></span> Research prototype <span class="separator">/</span> Tallinn, Estonia</p>
+      </div>
+      <div class="hero-art hero-enter">
+        <div class="art-window"><img src="assets/slow-light.webp" width="1536" height="1024" fetchpriority="high" alt="Three sculptural ribbons of matte porcelain and pale blue ceramic form one continuous arch in a quiet mineral landscape."></div>
+        <div class="art-caption"><span class="caption-rule"></span><span>From fragments<br>to a clearer picture.</span><span class="art-index">H—01</span></div>
+        <div class="floating-label"><span class="dot-grid" aria-hidden="true">⠿</span> Every course. Every source.</div>
+      </div>
+      <div class="hero-baseline"><span>Treatment-resistant depression · Escalation review</span><a href="#problem" class="scroll-cue">Scroll to discover <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section id="problem" class="problem section-shell section-space">
+      <div class="section-label reveal"><span>01 / The missing context</span><span class="label-line"></span></div>
+      <div class="problem-grid">
+        <div class="reveal"><h2>Three failed<br>medicines.<br><em>But what happened<br>in between?</em></h2></div>
+        <div class="problem-body reveal"><p class="lead">The history that would show this is scattered across years of notes.</p><p>A patient is called treatment-resistant after several antidepressants fail. Sometimes the dose was too low, the course too short, or treatment was stopped early.</p><p>Reconstructing that history by hand takes time no one has.</p><div class="quiet-note"><span aria-hidden="true">↳</span> A medicine on a list is only the beginning of the story.</div></div>
+      </div>
+      <div class="questions reveal"><div><span class="question-number">01</span><span>Dose</span><p>Was it high enough?</p></div><div><span class="question-number">02</span><span>Duration</span><p>Was it held long enough?</p></div><div><span class="question-number">03</span><span>Adherence</span><p>What supports it being taken?</p></div><div><span class="question-number">04</span><span>Exposure</span><p>What changed along the way?</p></div></div>
+    </section>
+
+    <section id="how" class="approach section-space">
+      <div class="section-shell">
+        <div class="section-label reveal"><span>02 / The approach</span><span class="label-line"></span><span>Follow the thread</span></div>
+        <div class="approach-heading reveal"><h2>Input: the chart.<br>Output: <em>clarity.</em></h2><p>An auditable review. <br>One connected history. <br>Four deliberate steps.</p></div>
+        <div class="story-grid">
+          <div class="story-visual" data-stage="0">
+            <div class="visual-top"><span><span class="status-dot"></span> A treatment history, reconstructed</span><span class="visual-counter">01 / 04</span></div>
+            <div class="visual-field">
+              <svg class="thread-art" viewBox="0 0 560 400" aria-hidden="true"><path class="thread-shadow" d="M-20 290C90 290 90 90 180 90S250 330 340 330 410 100 590 100"/><path class="thread-main" d="M-20 290C90 290 90 90 180 90S250 330 340 330 410 100 590 100"/><path class="thread-highlight" d="M-20 290C90 290 90 90 180 90S250 330 340 330 410 100 590 100"/></svg>
+              <div class="record record-a"><span class="record-kicker">Course 01 <span class="record-dot"></span></span><strong>Sertraline</strong><span class="record-detail">50 mg/day · 3 weeks</span><span class="record-verdict">Duration to review <span>↗</span></span></div>
+              <div class="record record-b"><span class="record-kicker">Course 02 <span class="record-dot"></span></span><strong>Venlafaxine XR</strong><span class="record-detail">225 mg/day · 9 weeks</span><span class="record-verdict">Exposure flag <span>↗</span></span></div>
+              <div class="record record-c"><span class="record-kicker">Course 03 <span class="record-dot"></span></span><strong>Escitalopram</strong><span class="record-detail">20 mg/day · 8 weeks</span><span class="record-verdict">Adherence uncertain <span>↗</span></span></div>
+              <div class="exposure-link"><span>Week 4</span><strong>+ Bupropion</strong><span>Metabolism to review</span></div>
+              <div class="audit-sheet"><div class="audit-head"><span class="audit-mark">h.</span><span>Review summary<br><small>Illustrative output</small></span><span class="audit-seal" aria-hidden="true">↗</span></div><div class="audit-line"><span>Treatment history</span><strong>3 courses</strong></div><div class="audit-line"><span>Assessment</span><strong>Linked to rules</strong></div><div class="audit-line"><span>Evidence</span><strong>Traceable sources</strong></div><div class="audit-line"><span>Clinical decision</span><strong>Remains with you</strong></div><div class="audit-footer"><span class="status-dot"></span> Versioned. Reviewable. Reproducible.</div></div>
+            </div>
+            <p class="visual-footnote">Illustrative interface · synthetic case</p>
+            <div class="stage-nav" aria-label="Explore the four steps"><button class="active" data-step="0" aria-current="step"><span>01</span> History</button><button data-step="1"><span>02</span> Adequacy</button><button data-step="2"><span>03</span> Exposure</button><button data-step="3"><span>04</span> Audit</button></div>
+          </div>
+          <div class="story-steps">
+            <article class="story-step" id="step-history" data-index="0"><span class="step-index">01 — History</span><h3>Put the past <br><em>back together.</em></h3><p>Reconstruct every antidepressant course from the record: drug, dose, start and end dates, anything added along the way.</p><span class="step-bottom">From scattered notes to one timeline</span></article>
+            <article class="story-step" id="step-adequacy" data-index="1"><span class="step-index">02 — Adequacy</span><h3>Look beyond <br><em>the drug name.</em></h3><p>Check each course. Was the dose high enough? Was it held long enough? What do pharmacy refills tell us — and what remains unknown?</p><span class="step-bottom">Dose · Duration · Adherence</span></article>
+            <article class="story-step" id="step-exposure" data-index="2"><span class="step-index">03 — Exposure</span><h3>The same dose. <br><em>A different story.</em></h3><p>Flag drug interactions and metabolism that may have changed the real exposure, not just the prescribed dose.</p><span class="step-bottom">Follow what changed along the way</span></article>
+            <article class="story-step" id="step-audit" data-index="3"><span class="step-index">04 — Audit</span><h3>Every verdict. <br><em>A visible reason.</em></h3><p>Stage the history with the Maudsley Staging Method and check it against the relevant reimbursement criteria. Every verdict links to its rule and source.</p><span class="step-bottom">An auditable review, ready for a clinician</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="example" class="example section-shell section-space">
+      <div class="section-label reveal"><span>03 / A closer look</span><span class="label-line"></span><span>A synthetic case</span></div>
+      <div class="example-heading reveal"><h2>One chart.<br><em>One honest answer.</em></h2><p>42 years old. Recurrent severe depression.<br>The chart says “three failed antidepressants”.<br>Look closer at each course.</p></div>
+      <div class="case-browser reveal">
+        <div class="case-list" role="tablist" aria-label="Illustrative treatment courses" aria-orientation="vertical">
+          <button role="tab" aria-selected="true" aria-controls="course-panel" id="course-tab-0" data-course="0" class="course-tab active"><span class="course-number">01</span><span><strong>Sertraline</strong><small>50 mg/day · 3 weeks</small></span><span class="case-arrow" aria-hidden="true">↗</span></button>
+          <button role="tab" aria-selected="false" aria-controls="course-panel" id="course-tab-1" data-course="1" tabindex="-1" class="course-tab"><span class="course-number">02</span><span><strong>Venlafaxine XR</strong><small>225 mg/day · 9 weeks</small></span><span class="case-arrow" aria-hidden="true">↗</span></button>
+          <button role="tab" aria-selected="false" aria-controls="course-panel" id="course-tab-2" data-course="2" tabindex="-1" class="course-tab"><span class="course-number">03</span><span><strong>Escitalopram</strong><small>20 mg/day · 8 weeks</small></span><span class="case-arrow" aria-hidden="true">↗</span></button>
+        </div>
+        <div class="course-panel" id="course-panel" role="tabpanel" aria-labelledby="course-tab-0" tabindex="0">
+          <div class="panel-overline"><span id="case-category">Duration</span><span>Illustrative review / 01</span></div>
+          <h3 id="case-title">Three weeks.<br>A question left open.</h3>
+          <div class="course-timeline" aria-hidden="true"><div class="timeline-track"><div class="timeline-fill"></div></div><div class="timeline-labels"><span id="timeline-start">Recorded course</span><span id="timeline-end">3 weeks</span></div></div>
+          <p id="case-body">The recorded course lasted three weeks. Duration needs to be assessed against the selected adequacy rule before this is counted as a failed adequate trial.</p>
+          <div class="case-finding"><span class="finding-icon" aria-hidden="true">↳</span><span id="case-finding">A short course does not tell the whole story.</span></div>
+        </div>
+      </div>
+      <div class="example-bottom reveal"><span class="mono">Illustrative case. Not a real patient.</span><p>Hughlings doesn't say what to do next.<br>It shows what the history supports — <em>and where it doesn't.</em></p></div>
+    </section>
+
+    <section class="why-now section-space">
+      <div class="section-shell"><div class="section-label reveal"><span>04 / Why now</span><span class="label-line"></span></div><div class="why-heading reveal"><h2>The rules already ask<br><em>for this document.</em></h2><p>Before the most resource-intensive escalation steps, reimbursement rules require a documented treatment history. Today psychiatrists assemble it by hand.</p></div>
+        <div class="region-grid reveal"><article class="region"><div class="region-top"><span class="country-code">FI</span><span>Finland / Kela 3062</span></div><h3>A documented history.<br>A written statement.</h3><p>Esketamine reimbursement requires a specialist statement and documented prior treatments, alongside severity and other criteria.</p><a href="https://www.kela.fi/laake3062" target="_blank" rel="noopener noreferrer" class="text-link">Read the Kela criteria <span aria-hidden="true">↗</span></a></article><article class="region"><div class="region-top"><span class="country-code">SE</span><span>Sweden / Region Skåne</span></div><h3>Every approach.<br>Every relevant detail.</h3><p>Regional guidance asks for at least four previous treatment approaches. The referral template captures drug, dose, duration and concentration measurements.</p><a href="https://vardgivare.skane.se/siteassets/1.-vardriktlinjer/lakemedel/skanelistans-bakgrundsmaterial/lakemedelsriktlinjer/spravato-esketamin-vid-terapiresistent-depression.pdf" target="_blank" rel="noopener noreferrer" class="text-link">Read the regional guidance <span aria-hidden="true">↗</span></a></article></div><p class="why-closing reveal">The rule is the demand; esketamine is only the example. <br>Hughlings documents readiness. The clinical decision stays with the clinician.</p>
+      </div>
+    </section>
+
+    <section id="principles" class="principles section-space">
+      <div class="section-shell"><div class="section-label reveal"><span>05 / How we build</span><span class="label-line"></span><span>Trust is in the details</span></div>
+        <div class="principles-intro reveal"><h2>Informs clinical<br>management.<br><em>Does not drive it.</em></h2><div class="principle-symbol" aria-hidden="true"><span></span><span></span><span></span></div></div>
+        <div class="principle-rows"><article class="principle-row reveal"><span>01</span><h3>The clinician decides.</h3><p>Hughlings does not prescribe, recommend or deliver treatment. The psychiatrist's decision is a separate, signed record.</p></article><article class="principle-row reveal"><span>02</span><h3>Rules, not guesses.</h3><p>Adequacy and exposure verdicts come from deterministic rules with named sources. A language model may explain a verdict; it never makes one.</p></article><article class="principle-row reveal"><span>03</span><h3>Every output is auditable.</h3><p>Each review records the exact input, the rule-set version and the time it was made. The same input and rule version produce the same result.</p></article><article class="principle-row reveal"><span>04</span><h3>Designed for oversight.</h3><p>We design for MDR and lifecycle oversight from day one, with a narrow intended use. Hughlings has not been clinically validated or CE-marked.</p></article></div>
+      </div>
+    </section>
+
+    <section class="fit section-shell section-space">
+      <div class="section-label reveal"><span>06 / Where we fit</span><span class="label-line"></span></div>
+      <div class="fit-grid"><div class="reveal"><h2>Built on top,<br><em>not instead.</em></h2><p class="fit-intro">Medication safety is already national infrastructure. Evidence assistants answer clinical questions. Hughlings is building the treatment-history review layer between them.</p><p class="fit-small">We don't build interaction databases, pharmacogenomic reports, safety alerts or literature search. We build on them.</p></div><div class="layer-stack reveal"><div class="layer layer-top"><span>03</span><strong>The clinician's decision</strong><small>Independent. Considered. Signed.</small></div><div class="layer layer-middle"><span>02</span><strong>hughlings.</strong><small>History → Adequacy → Exposure → Audit</small><span class="layer-tag">The review layer</span></div><div class="layer layer-bottom"><span>01</span><strong>The existing foundation</strong><small>Clinical records · Drug data · Evidence</small></div></div></div>
+      <div class="audience-grid reveal"><article><span class="mono">For psychiatric units & regions</span><p>Public psychiatric services preparing escalation decisions and reimbursement documentation.</p></article><article><span class="mono">For private providers</span><p>Consistent, reviewable escalation histories across clinicians.</p></article><article><span class="mono">For clinical software vendors</span><p>An escalation-review module for tools already inside the patient record.</p></article></div>
+    </section>
+
+    <section id="about" class="about section-space"><div class="section-shell">
+      <div class="section-label reveal"><span>07 / Where we are</span><span class="label-line"></span><span>A work in progress, on purpose</span></div>
+      <div class="about-heading reveal"><h2>Early.<br><em>And honest about it.</em></h2><div><p class="lead">Hughlings is a research prototype.</p><p>The rules engine runs on a structured case, with every verdict sourced. It has not been clinically validated yet — that is what design partners are for.</p></div></div>
+      <div class="roadmap reveal" aria-label="Planned milestones"><article class="current"><span class="roadmap-dot"></span><span class="mono">Q4 2026 / Now</span><h3>Listen & review</h3><p>Interviews with psychiatrists and clinical pharmacologists. Manual reviews of de-identified cases.</p></article><article><span class="roadmap-dot"></span><span class="mono">Q1 2027 / Planned</span><h3>Build together</h3><p>Work with 3–5 design partners.</p></article><article><span class="roadmap-dot"></span><span class="mono">Q2 2027 / Planned</span><h3>First paid pilot</h3><p>MDR classification with a fixed intended use.</p></article><article><span class="roadmap-dot"></span><span class="mono">Q3 2027 / Planned</span><h3>Independent review</h3><p>A blind benchmark against existing tools, scored by an independent assessor.</p></article></div>
+      <div class="team-row reveal"><div class="founder-mark" aria-hidden="true">YS</div><div class="founder"><span class="mono">Founder</span><h3>Yurii Sachenko</h3><p>Software engineer. Three years shipping web products, three in product growth and positioning, and about five years studying psychopharmacology and pharmacokinetics.</p></div><div class="open-role"><span class="mono"><span class="status-dot"></span> An open seat at the table</span><p>We're looking for a clinical pharmacologist or psychiatrist to join as adviser or co-founder, ideally from Finland, Sweden or Estonia.</p><a class="text-link" href="mailto:yura@sachenkolabs.tech?subject=Hughlings%20%E2%80%94%20Clinical%20collaboration">Start a conversation <span aria-hidden="true">↗</span></a></div></div>
+    </div></section>
+
+    <section id="contact" class="contact section-shell section-space">
+      <div class="section-label reveal"><span>08 / Work with us</span><span class="label-line"></span><span>Finland · Sweden · Estonia</span></div>
+      <div class="contact-orbit" aria-hidden="true"><span></span><i></i></div>
+      <div class="contact-inner reveal"><span class="contact-kicker"><span class="status-dot"></span> Seeking 3–5 design partners</span><h2>Bring us five cases.<br>We'll show you what<br><em>the history says.</em></h2><p>You share a handful of de-identified cases. We review them together, by hand and with the prototype. You tell us where we're wrong.</p><a class="button primary" href="mailto:yura@sachenkolabs.tech?subject=Hughlings%20%E2%80%94%20Design%20partnership">Let's explore it together <span aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:yura@sachenkolabs.tech">yura@sachenkolabs.tech</a><p class="privacy-note">Start with a conversation. Please don't email patient information.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer section-shell">
+    <div class="footer-top"><a class="wordmark" href="#" aria-label="Hughlings home"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M5 28V14a8 8 0 0 1 16 0v14M14 28V14a8 8 0 0 1 16 0v14"/></svg>hughlings<span class="wordmark-dot">.</span></a><p>A clearer history.<br>A considered next step.</p><a class="text-link" href="#">Back to the beginning <span aria-hidden="true">↑</span></a></div>
+    <div class="footer-details"><div><strong>Hughlings OÜ</strong><p>Registry code 17603435<br>Padriku tee 12/3-4, 11912<br>Tallinn, Estonia</p></div><div><p>Hughlings is a research prototype. It is not a CE-marked medical device and is not intended for clinical use.</p><p>This website collects no patient data. Please do not send identifiable patient information by email.</p></div><div><a href="mailto:yura@sachenkolabs.tech">yura@sachenkolabs.tech ↗</a><button class="motion-toggle" aria-pressed="false"><span class="motion-indicator" aria-hidden="true">Ⅱ</span><span class="motion-text">Pause motion</span></button></div></div>
+    <div class="footer-bottom"><span>© 2026 Hughlings OÜ</span><span>Research prototype · Visual concept 01</span><span>Made with consideration.</span></div>
+  </footer>
+</body>
+</html>

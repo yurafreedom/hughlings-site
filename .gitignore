@@ -1,0 +1,6 @@
+# Internal, not for the public site
+docs/
+README_RU.md
+SHA256SUMS.txt
+assets/slow-light.png
+.DS_Store
